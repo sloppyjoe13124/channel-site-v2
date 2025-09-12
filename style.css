@@ -94,6 +94,10 @@ li {
     border: 1px solid rgb(49, 47, 53);
 }
 
+#selected-thumbnail {
+    cursor: pointer;
+}
+
 .scroll-vid-btn {
     flex-shrink: 0;
     font-size: 2rem;
