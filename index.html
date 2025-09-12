@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">  
-        <title></title>
+        <title>Gilbert The Yapper</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="https://www.youtube.com/@gilberttheyapper"><h1 id="header">Gilbert The Yapper</h1></a>
+        <a href="https://www.youtube.com/@gilberttheyapper" target=" _blank"><h1 id="header">Gilbert The Yapper</h1></a>
         <div id="mid-section-container">
             <div id="mid-left-container">
                 <h4 class="about-header">About me</h4>
@@ -30,16 +30,19 @@
                 </div>
                 <div id="guestbook">
                     <h3>Sign My Guestbook!</h3>
-                    <a href="https://gilbertyapper.atabook.org/"><button id="guestbook-btn" >GUESTBOOK</button></a>
+                    <a href="https://gilbertyapper.atabook.org/" target=" _blank"><button id="guestbook-btn">GUESTBOOK</button></a>
                 </div>
             </div>
         </div>
-        <div id="past-uploads">
-            <!--okay do the thing tomorrow
-            make it look like: "<[]>
-                               Ooooooo"
-            add functionality-->
+        <h3>Here are my past youtube videos:</h3>
+        <div id="past-vids-container">
+            <div id="past-uploads">
+                <button id="scroll-vid-left" class="scroll-vid-btn">⟨</button>
+                <img id="selected-thumbnail" src="images/careerwoesthumbnailneocities.png" />
+                <button id="scroll-vid-right" class="scroll-vid-btn">⟩</button>
+            </div>
+            <h4 id="selected-vid-title">Title</h4>
         </div>
-        <script href="index.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
