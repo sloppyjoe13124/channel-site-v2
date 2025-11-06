@@ -11,7 +11,8 @@ let videoRoster = [
     {title: "Mixed Assorted Rants", thumbnail: "images/Mixed Assorted Rants thumbnail.jpg", vidSource: "https://youtu.be/PezCmduZ4Co"}, 
     {title: "Respecting Other People in Online Spaces", thumbnail: "images/ROPIOS thumbnail.jpg", vidSource: "https://youtu.be/oVj3u8QlfxQ"}, 
     {title: "Goodbye Cheeseburger", thumbnail: "images/Goodbye Cheeseburger thumbnail.jpg", vidSource: "https://youtu.be/x8Ts9hNsbBA"}, 
-    {title: "Career / Future Woes", thumbnail: "images/careerwoesthumbnailneocities.png", vidSource: "https://youtu.be/29T2PuJO7bE"}
+    {title: "Career / Future Woes", thumbnail: "images/careerwoesthumbnailneocities.png", vidSource: "https://youtu.be/29T2PuJO7bE"}, 
+    {title: "Where I've Been", thumbnail: "images/Where I've Been Thumbnail Neocities.png", vidSource: "https://youtu.be/sZrM-IQT-lY"}
 ]
 //if you just so happen to care about some rando's code, I made it this way so I only have to add a new object to the roster instead of
 //having to update multiple things if I want to add more videos to it.
